@@ -1,7 +1,9 @@
 body{
     background-image: url("Imagen.jpg");
+    margin-left: 20px solid blue;
     color: #E9E9E9;
     text-align: center;
+    
 }
 
 h1{
