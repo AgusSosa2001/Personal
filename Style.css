@@ -1,4 +1,12 @@
 body{
     background-image: url("Imagen.jpg");
     color: #E9E9E9;
+    text-align: center;
 }
+
+h1{
+    font-size:55px;
+    font-family: monospace;
+    margin-top: 10%;
+}
+
