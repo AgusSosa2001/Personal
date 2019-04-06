@@ -1,14 +1,100 @@
 body{
-    background-image: url("Imagen.jpg");
-    margin-left: 20px solid blue;
-    color: #E9E9E9;
-    text-align: center;
-    
+    background: #EBE3E3;
+    color: #574248;
+    margin: 0;
+    padding: 0;
 }
 
-h1{
-    font-size:55px;
-    font-family: monospace;
-    margin-top: 10%;
+header{
+    text-align: center;
 }
+
+.column-right,
+.column-left{
+    width: 50%
+}
+
+.right{
+    float: right;
+    box-sizing: border-box;
+}
+
+.left{
+    float: left;
+}
+
+header nav a{
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+    margin-right: 20px;
+    color: #574248;
+    font-size: 13px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+header nav a:hover{
+    color: black;
+}
+.centered_layout{
+    width: 1200px;
+    margin: auto;
+}
+.content{
+    overflow: hidden;
+    padding-top: 20px;
+}
+
+ h1{
+    font-size: 40px;
+    color: #574248;
+    text-align: left; 
+}
+
+ h2{
+    font-size: 22px;
+    color: #574248;
+    text-align: left;
+}
+
+span{
+    font-size: 60px;
+}
+
+.Picture img{
+    height: 45%;
+    width: 45%;
+    border-radius: 50%;
+    box-shadow: 0 0 0 2px black;
+    margin-top: 100px;
+}
+
+.butuno{
+    background:#ff2190;
+}
+
+.butdos{
+    background: #67C5C8;
+}
+
+.butres{
+    background: #D3CB2B
+}
+
+.button{
+    display:inline-block;
+    padding: 40px 20px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 2px #1C2530;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 10px;
+    margin-top: 30px;
+}
+
+
+
+
 
