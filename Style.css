@@ -72,14 +72,17 @@ span{
 
 .butuno{
     background:#ff2190;
+    margin-right: 15px;
 }
 
 .butdos{
     background: #67C5C8;
+    margin-right: 15px;
 }
 
 .butres{
-    background: #D3CB2B
+    background: #D3CB2B;
+    margin-right: -15px;
 }
 
 .button{
@@ -91,7 +94,6 @@ span{
     text-transform: uppercase;
     text-decoration: none;
     font-size: 10px;
-    margin-top: 30px;
 }
 
 
